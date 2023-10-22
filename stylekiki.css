@@ -1,0 +1,92 @@
+body{
+    font-family:'Playpen Sans', cursive;
+    margin: 50px 50px 0 50px;
+    background-color: rgb(236, 226, 231);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.creative {
+    color: rgb(38, 38, 167);
+}
+
+.logo {
+    width: 200px;
+    border-radius: 30px;
+}
+
+.card {
+    width: 45%;
+}
+
+.left-top {
+    float: left;
+}
+
+.right-top {
+    float: right;
+}
+
+.left-down {
+    float: left;
+}
+
+.right-down {
+    float: right;
+}
+
+.tile-image {
+    width: 200px;
+    height: 300px;
+    border-radius: 30px;
+    float:left ;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+.card-title, .card-text {
+    margin:60px;
+}
+
+footer {
+    clear: both; 
+    margin-top: 50px;
+    background-color: aliceblue;
+    width: 200px;
+    text-align: center;
+    float: right;
+}
+
+@media (max-width:680px) {
+    .logo {
+        width: 130px;
+        border-radius: 30px;} 
+    h1 {
+        font-size:3rem;
+        text-align: center;
+        }
+    .card {
+            width: 100%;
+            display: block;
+            text-align: justify;
+        }
+    .tile-image {
+            width: 65%;
+            height: 350px;
+            border-radius: 30px;
+            float:left ;
+            margin-left: 50px;
+            margin-bottom: 25px;
+            object-fit: cover;
+        }
+    .card-title, .card-text {
+            margin:10px;
+        }
+    .card-title {
+        text-align: center;
+    }
+    
+     
+}
